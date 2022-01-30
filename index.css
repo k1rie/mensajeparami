@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.mensaje{
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #011627;
+}
+
+.mensaje:focus{
+  border-radius: 5px;
+  outline: 1px solid #011627;
+  border: none;
+}
+
+#sendbtn{
+  margin-top: 30px;
+  padding: 5px 20px;
+  background-color: #FF9F1C;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
